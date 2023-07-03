@@ -1,0 +1,1414 @@
+html{
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+
+
+
+body{
+    background-image: url("./1600w-HGxdJA_xIx0.webp");
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0px;
+    background-color: transparent;
+    
+
+
+} 
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: palevioletred;
+}
+.logo{
+    width: 50px;
+    float: left;
+    position: relative;
+    right: 600px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 2em;
+    color: purple;
+
+     
+ }
+ .mainpage{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 3em;
+    font-weight: bold;
+    color: purple;
+
+
+ }
+        .container {
+    width: 400px;    
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 200px;    
+    top: 25%;
+    background-color: transparent;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: purple;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 80px;
+    padding: 8px;
+    background: lightcoral;
+    color: purple;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background: lightpink;
+  }
+
+  .signin {
+    width: 80px;
+    padding: 8px;
+    background: lightcoral;
+    color: purple;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 250px;
+    top: 232px;
+  }
+  
+  button:hover {
+    background: lightpink;
+  }
+
+  .SupPage{
+    display: flex;
+    flex-direction: column;
+  }
+.Page2{
+    display: flex;
+    position: absolute;
+    bottom: -1700px;
+    height: 100%;
+    top:1000px;
+}
+.Page3{
+    position: relative;
+    bottom: -2500px;
+    top:2700px;
+    height: 100%;
+    width: 100%;
+    
+}
+.Page4{
+    position: relative;
+    top:3900px;
+
+}
+
+
+
+  .secondPage{
+    position: absolute;
+    bottom: -1800px;
+    right: 0;
+top: 700cm;
+    height: 90%;
+    width: 100%;
+
+  }
+  .item1{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 10px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+img {
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+
+
+}
+.potato{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+select{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+
+/* First Image*/
+
+.item2{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 500px;
+top: 10px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img2{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+
+
+}
+.carrot{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.select1{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+
+/* 2nd Image*/
+.item3{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 950px;
+top: 10px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img3{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+
+
+}
+.tomato{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.select2{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+  
+/* 3rd Image*/
+.item4{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 150px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img4{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.egg{
+    position: absolute;
+    right: 80px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select3{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+/* 4rd Image*/
+.item5{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 500px;
+top: 150px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img5{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.onion{
+    position: absolute;
+    right: 100px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select4{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+/* 5rd Image*/
+.item6{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 950px;
+top: 150px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img6{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.cabbage{
+    position: absolute;
+    right: 80px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select5{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+/* 6 Image*/
+.item7{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 300px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img7{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.apple{
+    position: absolute;
+    right: 120px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select6{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+/* 7 Image*/
+.item8{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 500px;
+top: 300px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img8{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.banana{
+    position: absolute;
+    right: 90px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select7{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+/* 8 Image*/
+.item9{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 950px;
+top: 300px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img9{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.guava{
+    position: absolute;
+    right: 100px;
+    top: 13px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select8{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+/* 9 Image*/
+.item10{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 450px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img10{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.water{
+    position: absolute;
+    right: 40px;
+    top: 14px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select9{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+/* 10 Image*/
+.item11{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 500px;
+top: 450px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img11{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.papaya{
+    position: absolute;
+    right: 90px;
+    top: 14px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select10{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+/* 11 Image*/
+.item12{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 950px;
+top: 450px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.img12{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.mango{
+    position: absolute;
+    right: 90px;
+    top: 14px;
+color: purple;
+font-weight: bold;
+font-size: 1.3em;
+font-family: cursive;
+}
+.select11{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+
+.ThirdPage{
+    position: absolute;
+}
+
+/* Grocery item*/
+.grocery1{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 110px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro1{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.bread{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro1{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+
+/* First Image*/
+
+.grocery2{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 450px;
+top: 110px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro2{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.chilli{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro2{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+
+/* First Image*/
+
+.grocery3{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 900px;
+top: 110px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro3{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.maggi{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro3{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* First Image*/
+
+.grocery4{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 250px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro4{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.oil{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro4{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 5 Image*/
+
+.grocery5{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 450px;
+top: 250px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro5{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.oreo{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro5{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 6 Image*/
+
+.grocery6{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 900px;
+top: 250px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro6{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.suger{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro6{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 7 Image*/
+
+.grocery7{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 400px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro7{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.salt{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro7{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 8 Image*/
+
+.grocery8{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 450px;
+top: 400px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro8{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.ketchup{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro8{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 9 Image*/
+
+.grocery9{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 900px;
+top: 400px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro9{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.wheat{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro9{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 10 Image*/
+
+.grocery10{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 50px;
+top: 550px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro10{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.garam{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro10{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 11 Image*/
+
+.grocery11{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 450px;
+top: 550px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro11{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.turmeric{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro11{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+
+}
+/* 12 Image*/
+
+.grocery12{
+    height: 110px;
+    width: 300px;
+position: absolute;
+left: 900px;
+top: 550px;
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.imgGro12{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    border-radius: 10px;
+}
+.coriander{
+    position: absolute;
+    right: 50px;
+    top: 12px;
+color: purple;
+font-weight: bold;
+font-size: 1.5em;
+font-family: cursive;
+}
+.selectGro12{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+        background-color: transparent;
+}
+button{
+    position: absolute;
+    right: 0px;
+    width: 70px;
+    background: lightcoral;
+}
+/*3rd page*/
+.head1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.MainPage1{
+    position: absolute;
+    top: 50px;
+}
+
+.feature1{
+    height: 350px;
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+  }
+  .para1{
+    color: rgb(142, 56, 142);
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    font-weight: bold;
+  }
+  .button1{
+    position: absolute;
+    top:300px;
+    left: 80px;
+    width: 70px;
+    background: lightcoral;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+
+  }
+.feature2{
+    height: 350px;
+    width: 300px;
+    position:absolute;
+    left: 500px;
+    top: 100px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+.head2 {
+    text-align: center;
+    color: purple;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+  }
+  .para2{
+    color: rgb(142, 56, 142);
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    font-weight: bold;
+  }
+  .button2{
+    position: absolute;
+    top:300px;
+    left: 80px;
+    width: 70px;
+    background: lightcoral;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+
+  }
+  .imgFea2{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+
+}
+
+
+.feature3{
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top:100px;
+    left: 900px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.imgFea1{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.head3 {
+    text-align: center;
+    color: purple;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+  }
+  .para3{
+    color: rgb(142, 56, 142);
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    font-weight: bold;
+  }
+  .button3{
+    position: absolute;
+    top:300px;
+    left: 80px;
+    width: 70px;
+    background: lightcoral;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+
+  }
+  .imgFea3{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+
+}
+
+/* fourth page*/
+
+.aboutHead1{
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+.aboutHead2{
+    position: absolute;
+    top:120px ;
+    left: 550px;
+}
+
+.aboutPara{
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    color: rgb(142, 56, 142);
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: .8em;
+
+}
+.aboutCon{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: .9em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.aboutCon1{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
